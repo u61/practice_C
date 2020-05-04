@@ -3,15 +3,10 @@
 
 int main()
 {
-  char characterName[] = "John";
-  int characterAge = 35;
-
-  printf("There once was a man named %s\n", characterName);
-  printf("he was %d years old.\n", characterAge);
-
-  characterAge = 29;
-  printf("He really liked the name %s\n", characterName);
-  printf("but did not like being %d.\n", characterAge);
+  int age = 40;                   // integers
+  double gpa = 3.6;               // decimal numbers
+  char grade = 'A';               // you can only store 1 character, between single-quote
+  char phrase[] = "Hello Uranus"; // string, between double-quotes
 
   return 0;
 }
